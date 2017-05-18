@@ -1,9 +1,9 @@
-print('this program prints the day of ur birth')
+print('This program prints the day of ur birth')
 import calendar
-dy=int(input('enter ur day:'))
-mth=int(input('enter ur month:'))
-yr=int(input('enter ur year:'))
-sar=calendar.weekday(yr,mth,dy)
-aher={0:'monday',1:'tuesday',2:'wednesday',3:'thursday',4:'friday',5:'saturday',6:'sunday'}
-print'ur day of birth is',aher[sar]
+dy=int(input('Enter your day:'))
+mth=int(input('Enter your month:'))
+yr=int(input('Enter your year:'))
+agie=calendar.weekday(yr,mth,dy)
+nak={0:'Monday',1:'Tuesday',2:'Wednesday',3:'Thursday',4:'Friday',5:'Saturday',6:'Sunday'}
+print('Your day of birth is'),nak[agie]
 
